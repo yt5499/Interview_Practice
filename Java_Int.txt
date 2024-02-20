@@ -1,0 +1,63 @@
+(--)=Done
+*******************Questions on collection framework********************************
+Question 1: Write a program to find the second highest number in an ArrayList of integers.
+Question 2: Write a method to remove all duplicates from an ArrayList.
+Question 3: Implement a method that takes a Map<String, Integer> and returns a new Map<Integer, List<String>> where the keys are the values from the original map, 
+	and the values are lists of keys from the original map that had the same value.
+Question 4: Write a program to sort a HashMap by its values.
+Question 5: Implement a method that takes a List<String> and returns a Map<Character, List<String>> where the keys are the first characters of the strings (converted to lowercase) 
+	and the values are lists of strings that start with that character.
+Question 6: Write a program to find the intersection of two ArrayLists.
+Question 7: Implement a method that takes a List<Integer> and returns a Map<Boolean, List<Integer>> where the keys are true if the integer is even and false if it is odd, 
+	and the values are lists of even and odd integers respectively.
+Question 8: Write a program to merge two LinkedLists into a single LinkedList, keeping the elements in sorted order.
+Question 9: Implement a method that takes a List<String> and returns a Map<Integer, Set<String>> where the keys are the lengths of the strings and the values are sets 
+	of strings of that length.
+Question 10: Write a program to find the kth largest element in an ArrayList of integers.
+
+**********************Core Java coding questions**********************************
+Here are some logical interview-based core Java coding questions to practice:
+--Question 1: Write a program to reverse a string without using any built-in reverse() method.
+--Question 2: Implement a method to check if a given string is a palindrome (reads the same forwards and backwards) ignoring case and non-alphanumeric characters.
+Question 3: Write a program to find the largest and smallest number in an array of integers without using any built-in methods like Arrays.sort().
+Question 4: Implement a method to remove duplicates from an array of integers without using any additional data structures.
+Question 5: Write a program to find all pairs of elements in an array whose sum is equal to a given target.
+Question 6: Implement a method to rotate an array of integers to the right by a given number of steps.
+Question 7: Write a program to find the longest common prefix among an array of strings.
+Question 8: Implement a method to find the intersection of two arrays.
+Question 9: Write a program to find the second highest number in an array of integers without sorting the array.
+Question 10: Implement a method to check if two strings are anagrams of each other (contain the same characters with the same frequency) ignoring case and non-alphanumeric characters.
+Question 1: Implement a method to find the first non-repeated character in a string.
+Question 2: Write a program to find the missing number in a given integer array of 1 to n.
+Question 3: Implement a method to check if a given number is a prime number.
+Question 4: Write a program to calculate the factorial of a non-negative integer.
+Question 5: Implement a method to check if a given string is a valid palindrome permutation (can be rearranged into a palindrome).
+Question 6: Write a program to find the longest substring without repeating characters in a given string.
+Question 7: Implement a method to reverse the order of words in a given string.
+Question 8: Write a program to find all prime numbers up to a given number n using the Sieve of Eratosthenes algorithm.
+Question 9: Implement a method to check if two strings are rotations of each other.
+Question 10: Write a program to find the maximum sum subarray of a given integer array.
+
+
+*****************************Theory Questions**************************************
+Here are some logical interview-based core Java questions to practice:
+Question 1: Explain the difference between == and .equals() in Java. Provide examples to illustrate your explanation.
+Question 2: What is the difference between ArrayList and LinkedList? When would you use one over the other?
+Question 3: Explain the concept of method overloading and method overriding in Java. Provide examples to demonstrate each.
+Question 4: How does the HashMap class work internally in Java? Explain the hashCode() and equals() methods in relation to HashMap.
+Question 5: What is the difference between final, finally, and finalize in Java? Provide examples to clarify their usage.
+Question 6: How does Java handle multithreading? Explain the difference between synchronized methods and synchronized blocks.
+Question 7: What is the difference between throw and throws in Java exception handling? Provide examples to illustrate their use.
+Question 8: Explain the concept of garbage collection in Java. How does it help manage memory?
+Question 9: What is the difference between static and final in Java? How are they used in class design?
+Question 10: How does Java support polymorphism? Explain with an example demonstrating both compile-time and runtime polymorphism.
+Question 1: Explain the difference between abstract class and interface in Java. When would you use one over the other?
+Question 2: What is the purpose of the transient keyword in Java? How does it affect serialization?
+Question 3: How does Java handle exceptions? Explain the difference between checked and unchecked exceptions.
+Question 4: What are lambda expressions in Java? How do they improve code readability and conciseness?
+Question 5: Explain the principle of encapsulation in Java. How does it help in achieving data hiding and abstraction?
+Question 6: What is the difference between == and .equals() for comparing objects in Java? How does it relate to the hashCode() method?
+Question 7: How does the switch statement work in Java? What are its limitations compared to if-else statements?
+Question 8: What is the purpose of the this keyword in Java? How is it used to differentiate between instance variables and parameters?
+Question 9: Explain the concept of inheritance in Java. How does it promote code reusability and maintainability?
+Question 10: What are the principles of SOLID design in Java? How do they help in writing flexible and maintainable code?
