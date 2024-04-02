@@ -13,20 +13,25 @@ public class Swapping {
 		
 		System.out.println("Your entered numbers are:\nFirst: "+f+" \nSecond: "+s);
 		
-		s = f+s;
-		f = s-f;
-		s = s-f;
-		
-		System.out.println("Numbers after swapping are: \nFirst: "+f+" \nSecond: "+s);
-		
-//		LOGIC
-//		a=10
-//		b=20
-		
-//		b=10+20=30
-//		a=b-a=20
-//		b=b-a=10
-		
-		
+		Swapp obj = new Swapp();
+		obj.swappBy2(f, s);	
+	}
+}
+
+class Swapp{
+	
+//	LOGIC
+//	a=10
+//	b=20
+	
+//	b=10+20=30
+//	a=b-a=20
+//	b=b-a=10
+	
+	public void swappBy2(int first, int second) {
+		second = first+second;
+		first = second-first;
+		second = second-first;
+		System.out.println("Numbers after swapping are: \nFirst: "+first+" \nSecond: "+second);
 	}
 }
